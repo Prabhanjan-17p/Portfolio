@@ -29,6 +29,7 @@ Each project reflects my journey as a developer and designer, showcasing my abil
 
 ## Let’s Build Something Amazing Together! 🌟  
 
+
 ### Connect with Me  
-- 🌐 **Portfolio**: https://your-portfolio-link.com](https://pravanjanamanta.netlify.app/
-- 💼 **LinkedIn**: https://linkedin.com/in/your-profile-link](https://www.linkedin.com/in/pravanjan-17p/
+- 🌐 **Portfolio**: [Visit My Portfolio](https://pravanjanamanta.netlify.app/)
+- 💼 **LinkedIn**: [Connect on LinkedIn](https://www.linkedin.com/in/pravanjan-17p/)
