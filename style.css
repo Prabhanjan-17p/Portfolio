@@ -45,8 +45,56 @@ body {
     color: black;
 }
 
+/* toggle */
+.switch{
+    height: 80px;
+    background-color: black;
+    padding: 0 1.5rem;
+    border-radius: .75rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+input{
+    display: none;
+}
+.switch-rail{
+    position: relative;
+    width: 45px;
+    height: 16px;
+    background-color: rgba(6, 181, 212, 0.222);
+    border-radius: 3rem;
+}
+.switch-circl{
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: rgba(6, 182, 212, 1);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    transition: .4s;
+}
+.switch-indicator{
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 1.5rem;
+    transition: .4s;
+}
+input:checked ~ .switch-rail .switch-circl{
+    transform: translate(22px, -50%);
+}
+input:checked ~ .switch-indicator{
+    background-color: green;
+}
 
-
+#particles-js{
+    display: block;
+}
 
 
 /* Loading Animation */

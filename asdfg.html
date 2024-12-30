@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toggle JavaScript File</title>
+</head>
+<body>
+  <button id="toggle-script">Toggle JavaScript</button>
+
+  <script >
+    const button = document.getElementById('toggle-script');
+    let scriptAdded = false; // Track if the script is added
+
+    button.addEventListener('click', () => {
+      if (!scriptAdded) {
+        // Add the script
+        const script = document.createElement('script');
+        script.src = "./particles.js"; // Replace with your JavaScript file path
+        script.id = "dynamic-script"; // Assign an ID for easy reference
+        document.body.appendChild(script);
+        scriptAdded = true;
+        console.log("Script added");
+      } else {
+        // Remove the script
+        const script = document.getElementById('dynamic-script');
+        if (script) {
+          script.remove();
+          scriptAdded = false;
+          console.log("Script removed");
+        }
+      }
+    });
+  </script>
+</body>
+</html>
