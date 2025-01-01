@@ -1,7 +1,3 @@
-
-
-
-
 var pJS = function (tag_id, params) {
 
   var canvas_el = document.querySelector('#' + tag_id + ' > .particles-js-canvas-el');
@@ -1536,15 +1532,47 @@ window.particlesJS.load = function (tag_id, path_config_json, callback) {
 
 };
 
-const check = document.getElementById('check');
-var ch = 0;
-check.addEventListener('click', () => {
-  if (ch == 0) {
-    ch = 1;
 
-
+//For all 
+const styl3 = document.getElementById('styl3');
+let scriptAdded = false;
+function openPrti() {
+  if (!scriptAdded) {
+    scriptAdded = true;
+    styl3.style.marginTop = '100vh';
   } else {
-    ch = 0;
-   
+    scriptAdded = false;
+    styl3.style.marginTop = '-100vh';
+  }
+}
+
+
+
+// For only index
+const checkqwe1 = document.getElementById('check1');
+const navas = document.getElementById('navas');
+const ifrm = document.getElementById('ifrm');
+let sdf = false;
+let coucc = 0;
+checkqwe1.addEventListener('click', () => {
+  if (!sdf) {
+    sdf = true;
+    if (coucc == 0) {
+      ifrm.style.display = 'block';
+      navas.style.backgroundColor = "black"
+    } else {
+      styl3.style.marginTop = '100vh';
+    }
+  } else {
+    sdf = false;
+    coucc++;
+    if(coucc >= 0) {
+      ifrm.style.display = 'none';
+      navas.style.backgroundColor = "transparent";
+      styl3.style.marginTop = '-100vh';
+    }
   }
 });
+
+
+

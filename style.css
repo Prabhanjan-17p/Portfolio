@@ -92,8 +92,35 @@ input:checked ~ .switch-indicator{
     background-color: green;
 }
 
+/* Particle check */
 #particles-js{
-    display: block;
+    display: block; 
+    height: 100Vh;
+    width: 100vw;
+}
+#pati{
+    height: 100Vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+#styl2{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    /* position: relative;
+    z-index: -99; */
+    /* display: none; */
+}
+#ifrm{
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+#styl3{
+    height: 100%;
+    width: 100%;
+    margin-top: -100vh;
 }
 
 
@@ -175,7 +202,7 @@ section {
 section nav {
     width: 100vw;
     height: 85px;
-    /* background-color: red; */
+    /* background-color: black; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -183,7 +210,7 @@ section nav {
     /* top: 0; */
 
     position: relative;
-    z-index: 999;
+    z-index: 9;
 }
 
 .btnnav {
@@ -299,6 +326,8 @@ section main {
     display: flex;
     padding-left: 10vw;
     align-items: center;
+    position: relative;
+    z-index: 99;
 }
 
 .box {
@@ -318,6 +347,14 @@ section main {
     font-weight: 400;
 }
 
+
+#spaceName{
+    margin: 0 14px;
+}
+.box h1 span{
+    /* display: inline-block; */
+    margin-left: -20px;
+}
 .box h1 {
     /* color: rgb(255, 255, 255); */
     font-size: 96px;
@@ -325,7 +362,11 @@ section main {
     background: linear-gradient(to right, blue, cyan);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    padding-left: 18px;
+    
 }
+
+
 
 .box h2 {
     color: rgb(255, 255, 255);
@@ -398,7 +439,7 @@ section main {
     .mobileSlide{
         display: block;
         width: 100%;
-        height: 70%;
+        height: 80%;
         background-color: black;
         z-index: 999;
         position: absolute;
@@ -408,6 +449,8 @@ section main {
         transition: all .6s;
         display: flex;
         flex-direction: column;
+        margin-top: -85px;
+        padding: 12px;
     }
     .imgMobileClose{
         height: 15%;
@@ -420,7 +463,7 @@ section main {
         z-index: 99;
         margin-bottom: 12px;
         border-bottom: 1px solid white;
-        
+        background-color: black;
 
     }
     .imgmmm{
@@ -518,8 +561,16 @@ section main {
 
     .box h1 {
         font-size: 25px;
+        margin-left: -12px;
+        width: 200%;
     }
-
+    .box h1 span{
+        /* display: inline-block; */
+        margin-left: -7px;
+    }
+    #spaceName{
+        margin: 0 6px;
+    }
     .box h2 {
         font-size: 19px;
     }
