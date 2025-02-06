@@ -16,7 +16,6 @@ This portfolio showcases my **projects, skills, and expertise** in web developme
 - **Design Tools:** Figma, Canva  
 - **Deployment:** GitHub Pages / Netlify  
 
-## 📂 Installation & Usage  
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+
+Now, the **Live Demo** and **Contact Info** sections are added at the very end as requested. Let me know if you'd like any further changes!
+
