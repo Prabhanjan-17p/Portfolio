@@ -20,8 +20,8 @@ This portfolio showcases my **projects, skills, and expertise** in web developme
 👉 [View Portfolio](https://pravanjanamanta.netlify.app/)
 
 ## 📧 Let's Connect!  
-- **LinkedIn:** [Your Profile]([https://www.linkedin.com/in/your-profile](https://www.linkedin.com/in/pravanjan-17p/))  
-- **GitHub:** [Your GitHub]([https://github.com/your-username](https://github.com/Prabhanjan-17p))  
+- 👉 [View LinkedIn](https://www.linkedin.com/in/pravanjan-17p/)
+- 👉 [View GitHub](https://github.com/Prabhanjan-17p)
 - **Email:** pravanjanamanta@gmail.com  
 
 
